@@ -187,7 +187,7 @@
                 </div>
                 
                 <div class="register-link">
-                    Don't have an account? <a href="../html/signup.html">Register here</a>
+                    Don't have an account? <a href="./signup.html">Register here</a>
                 </div>
             </form>
         </div>
@@ -232,7 +232,7 @@
       localStorage.setItem("loggedInUser", JSON.stringify(userData));
       alert("Welcome back")
       // Redirect to weather page with username query parameter
-      window.location.href = "../html/main.html?uname=" + encodeURIComponent(enteredUsername);
+      window.location.href = "./main.html?uname=" + encodeURIComponent(enteredUsername);
     } else {
       // Show error message if invalid login attempt
       alert("Invalid Username or Password, please try again.");
